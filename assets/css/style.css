@@ -1,6 +1,10 @@
-button,
-    div,
-    form,
-    input {
+button, div, form, input {
       margin: 10px;
     }
+
+
+
+ .gifDiv {
+	float: left;
+}
+

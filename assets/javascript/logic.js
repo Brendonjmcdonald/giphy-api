@@ -1,5 +1,5 @@
 // Intial array
-      var reactions =["Happy", "Sad", "Excited", "Confused"];
+      var reactions =["Happy", "Sad", "Excited", "Confused", "Clapping", "Headbanging", "High Five"];
 
       // Array for still images
       var stillImage = [];
@@ -12,7 +12,7 @@
     // Function to create buttons
     function renderButtons() {
 
-      // Makes new button
+      // Starts empty then loops through array
       $("#buttons-view").empty();
       for (var i=0; i < reactions.length; i++){
         var newButton = $("<button>");
